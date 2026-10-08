@@ -1,5 +1,5 @@
 // The eight playable fighters. Each has a unique `special` ability that is
-// resolved by the engine in game.js (see `spawnSpecial` / `startSpecial`).
+// resolved by the engine in game.js (see `startSpecial` / `spawnSpecial`).
 export const CHARACTERS = [
   {
     id: 'blaze',
@@ -7,6 +7,7 @@ export const CHARACTERS = [
     title: 'Ember Fist',
     color: '#ff5a1f',
     accent: '#ffd166',
+    hair: '#7c2d12',
     hp: 100,
     speed: 1.0,
     power: 1.0,
@@ -21,6 +22,7 @@ export const CHARACTERS = [
     title: 'Glacier Guard',
     color: '#38bdf8',
     accent: '#e0f2fe',
+    hair: '#0c4a6e',
     hp: 115,
     speed: 0.9,
     power: 1.0,
@@ -35,6 +37,7 @@ export const CHARACTERS = [
     title: 'Storm Runner',
     color: '#facc15',
     accent: '#fff7cc',
+    hair: '#713f12',
     hp: 90,
     speed: 1.25,
     power: 0.95,
@@ -49,6 +52,7 @@ export const CHARACTERS = [
     title: 'Iron Colossus',
     color: '#b45309',
     accent: '#fde68a',
+    hair: '#451a03',
     hp: 130,
     speed: 0.78,
     power: 1.15,
@@ -63,6 +67,7 @@ export const CHARACTERS = [
     title: 'Silent Blade',
     color: '#7c3aed',
     accent: '#c4b5fd',
+    hair: '#2e1065',
     hp: 95,
     speed: 1.15,
     power: 1.05,
@@ -77,6 +82,7 @@ export const CHARACTERS = [
     title: 'Life Bloom',
     color: '#16a34a',
     accent: '#bbf7d0',
+    hair: '#14532d',
     hp: 120,
     speed: 0.95,
     power: 0.9,
@@ -91,6 +97,7 @@ export const CHARACTERS = [
     title: 'Stone Breaker',
     color: '#78716c',
     accent: '#d6d3d1',
+    hair: '#292524',
     hp: 125,
     speed: 0.85,
     power: 1.1,
@@ -105,6 +112,7 @@ export const CHARACTERS = [
     title: 'Gale Dancer',
     color: '#0ea5e9',
     accent: '#bae6fd',
+    hair: '#082f49',
     hp: 100,
     speed: 1.1,
     power: 1.0,
